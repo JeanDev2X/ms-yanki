@@ -19,8 +19,8 @@ public class CustomerEventsService {
 	@Autowired
 	private KafkaTemplate<String, Event<?>> producer;
 	
-	@Value("${topic.customer.name:customers}")
-	private String topicCustomer;
+//	@Value("${topic.customer.name:customers}")
+//	private String topicCustomer;
 		
 	@Value("${topic.operacion.name:operacion}")
 	private String topicOperaciones;
