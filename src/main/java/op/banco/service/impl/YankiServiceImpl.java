@@ -4,7 +4,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import op.banco.client.ProductoBancoClient;
-import op.banco.documents.Yanki;
 import op.banco.dto.CuentaBanco;
 import op.banco.service.YankiService;
 import reactor.core.publisher.Mono;

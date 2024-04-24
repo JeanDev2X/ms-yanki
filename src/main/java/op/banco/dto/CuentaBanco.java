@@ -17,9 +17,7 @@ public class CuentaBanco {
 	private double saldo;
 	private String usuario;
 	private String clave;
-	private String codigoBanco;
-	
-	
+	private String codigoBanco;	
 	
 }
 
